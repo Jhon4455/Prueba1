@@ -106,6 +106,7 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Personas.cs" />
     <Compile Include="Profesores.aspx.cs">
       <DependentUpon>Profesores.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
