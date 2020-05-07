@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="Actividad1_Eval3.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+        <link rel="stylesheet" href="css/estilos_01.css" />
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+	      <div class="">
+	   <div class="logo">
+	       <img src="img/banner-lineal-web1.jpg">
+       </div>
+        <nav class="menu-fixed">
+		   <ul>
+               <li><a href="#">Contacto</a></li>
+               <li><a href="Login.aspx">inicio de session</a></li>
+               <li><a href="Registrar.aspx">Registrar</a></li>
+		       <li><a href="index.aspx">inicio</a></li>
+		   </ul>
+       	</nav>
+        </div>		
+	 </header>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <br />
+            <br />
+            <!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; Parcial 2 - Programacion 2 - ciclo 01-2020
+						</div>
+						<!--<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>-->
+					</div>
+				</div>
+			</footer>
+
+        </div>
+    </form>
+</body>
+    <script src="js/main.js"></script>
+</html>

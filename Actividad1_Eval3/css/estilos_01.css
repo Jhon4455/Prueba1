@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', cursive;
+}
+.contenedor {
+    width: 100%;
+    max-width: 1500px;
+    
+}
+
+.contenedor1 {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+    margin: auto;
+    
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.contenedor h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+}
+header nav{
+    background: #333;
+    margin-bottom:10px;
+    
+}
+
+header nav ul{
+    list-style:none;
+    overflow:hidden;  
+	-webkit-transition: all ease .5s;
+	-0-transition: all ease .5s;
+	transition: all ease .5s;
+}
+
+header nav ul li{
+    float:right;	
+}
+
+header nav ul li a{
+    color:#fff;
+    display:block;
+	padding:20px;
+	text-decoration:none;
+	
+	
+}
+
+    header nav ul li a:hover {
+        background: #1b9bff;
+    }
+
+.menu-fixed{
+    position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.menu-fixed ul li a {
+	padding: 15px 20px;
+}
+
+.logo img{
+		width: 100%;
+        height: 300px;
+}
+
+/*Formulario de registro*/
+h1 {
+    color: #5385c1;
+    text-align: center;
+}
+
+.form-register {
+    width: 60%;
+    max-width: 500px;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+
+    .form-register .form_titulo {
+        padding: 20px;
+        text-align: center;
+        font-weight: 100;
+        font-size: 2.75em;
+        margin: 0 0 .5em 0;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom: 5px solid crimson;
+        background: #fff;
+        color: #5385c1;
+    }
+
+.contenedor-inputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input {
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48 {
+    width: 48%;
+    float: right;
+}
+
+.input-100 {
+    width: 100%;
+}
+
+.btn-enviar {
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-enviar1 {
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+    .btn-enviar:active {
+        transform: scale(1.05);
+    }
+
+.form__link {
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Select option {
+    color: darkgray;
+}
+
+.form__link a {
+    color: #5385c1;
+}
+
+#footer .inner {
+    border-top: 1px solid #dbdbdb;
+    padding-top: 3em;
+    width: 80%;
+    margin:auto;
+    margin-top:300px;
+    display:block;
+}
+
+#footer .copyright {
+    color: #bbb;
+    font-size: 0.8em;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+.DataGrid {
+    text-align: center;
+    float:right;
+    position: absolute;
+}
+
+.input_Line {
+    width: 20%;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline;
+    background: crimson;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.input_Line:active {
+    transform: scale(1.05);
+}
